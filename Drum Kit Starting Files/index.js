@@ -77,7 +77,7 @@ for (var i = 0; i < numberOfDrumButtones; i++) {
                 audio.play();
               break;
             default:
-                console.log("invalid")
+                console.log("invalid");
         }
     });
 }
