@@ -39,9 +39,7 @@ for (var i = 0; i < numberOfDrumButtones; i++) {
         }
     });
 }
-// document.addEventListener('keypress', function(event){
-//     alert("key pressed")
-// })
+
 for (var i = 0; i < numberOfDrumButtones; i++) {
 
     document.querySelectorAll(".drum")[i].addEventListener("keypress", function (event) {
